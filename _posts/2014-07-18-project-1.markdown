@@ -1,13 +1,13 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Docker
+subtitle: Docker 使用
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2019-07-18
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: May 2019
 client: Start Bootstrap
 category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
@@ -20,7 +20,6 @@ tag: java docker
 ## Docker 客户端
 
 docker 客户端非常简单 ,可以直接输入 `docker` 命令来查看到 Docker 客户端的所有命令选项。
-![image](images/1539566252.png)
 
 可以通过命令 docker command --help 更深入的了解指定的 Docker 命令使用方法。
 
@@ -30,7 +29,6 @@ docker 客户端非常简单 ,可以直接输入 `docker` 命令来查看到 Doc
 docker stats --help
 ```
 
-![iamge](images/1539566428.png)
 
 ---
 
@@ -47,8 +45,6 @@ docker pull training/webapp #载入镜像
 docker run -d -P training/webapp python app.py
 ```
 
-![image](images/1539566964.png)
-![image](images/1539567032.png)
 
 参数说明:
 
@@ -60,7 +56,6 @@ docker run -d -P training/webapp python app.py
 ## 查看WEB应用容器
 
 使用 `docker ps` 来查看正在运行的容器：
-![image](images/1539567219.png)
 
 这里多了端口信息:
 
@@ -69,11 +64,9 @@ PORTS
 0.0.0.0:32768->5000/tcp
 ```
 
-![image](images/1539567843.png)
 
 也可以通过 -p 参数来设置不一样的端口
 
-![image](images/153956814.png)
 
 ---
 
@@ -84,14 +77,12 @@ PORTS
 上面创建的 web 应用容器 ID 为 fdbf339f605f 名字为 nifty_goodall。
 
 可以使用 docker port fdbf339f605f 或 docker port nifty_goodall 来查看容器端口的映射情况。
-![image](images/1539568393.png)
 
 ---
 
 ## 查看WEB应用程序日志
 
 `docker logs` [ID或者名字] 可以查看容器内部的标准输出.
-![images](images/1539568543.png)
 
 - -f : 让 docker logs 像使用 tail -f 一样来输出容器内部的标准输出.
 
@@ -102,14 +93,12 @@ PORTS
 ## 查看WEB应用程序容器的进程
 
 还可以使用 `docker top` [ID或者名字] 来查看容器内部运行的进程
-![image](images/1539568699.png)
 
 ---
 
 ## 检查WEB应用程序
 
 使用 `docker inspect` 来查看 Docker 的底层信息。它会返回一个 JSON 文件记录着 Docker 容器的配置和状态信息。
-![image](images/1539568881.png)
 
 ```json
 [
@@ -334,7 +323,6 @@ PORTS
 
 使用 `docker stop` [ID或者名字] 停止web应用容器
 
-![image](images/1539569013.png)
 
 ---
 
@@ -342,11 +330,9 @@ PORTS
 
 已经停止的容器，可以使用命令 `docker start` [ID或者名字] 来启动。
 
-![image](images/1539569193.png)
 
 `docker ps -l` 查询最后一次创建的容器
 
-![image](images/1539569296.png)
 
 正在运行的容器,可以使用 `docker restart` [ID或者名字] 命令来重启
 
@@ -356,8 +342,6 @@ PORTS
 
 可以使用 `docker rm` [ID或者名字] 命令来删除不需要的容器
 
-![iamge](images/1539569550.png)
 
 删除容器时,容器必须时停止状态,否则会报如下错误
 
-![image](images/1539569478.png)
