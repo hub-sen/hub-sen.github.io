@@ -1,10 +1,10 @@
 ---
-title: Dreams
+title: Docker
 subtitle: Website Design
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
+img: roundicons.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2014
