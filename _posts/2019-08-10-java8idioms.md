@@ -84,7 +84,7 @@ public static void findNemo(List<String> names) {
 
 图 1. 命令式、声明式和函数式编程的联系
 
-![image](img/posts/fig1.jpg)
+![image](/img/posts/fig1.jpg)
 
 ### Java 中的高阶函数
 在 Java 中，要将对象传递给方法，在方法内创建对象，并从方法中返回对象。可以对函数执行同样的操作。也就是说，可以将函数传递给方法，在方法内创建函数，并从方法返回函数。
