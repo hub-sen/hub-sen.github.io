@@ -8,7 +8,8 @@ header-img: "img/posts/ibm.jpg"
 catalog: true
 tags:
   - java
-  - lamda
+  - lambda
+  - 函数式编程
 ---
 
 Java 8 习惯用语，第 1 部分
@@ -21,7 +22,7 @@ Java 8 是自 Java 语言诞生以来进行的一次最重大更新 — 包含�
 
 系列内容：
 
-一 此内容是该系列 11 部分中的第 1 部分： Java 8 习惯用语
+一 此内容是该系列 11 部分中的第 1 部分： Java 中的一种更轻松的函数式编程途径
 
 - 函数纯度
 - 第 1 部分: Java 中的一种更轻松的函数式编程途径
