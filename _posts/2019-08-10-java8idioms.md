@@ -83,7 +83,7 @@ public static void findNemo(List<String> names) {
 
 图 1. 命令式、声明式和函数式编程的联系
 
-![image](../img/_posts/fig1.jpg)
+![image](img/_posts/fig1.jpg)
 
 Java 中的高阶函数
 -
