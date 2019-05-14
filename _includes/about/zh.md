@@ -3,19 +3,14 @@
 
 ##### Talks
 
-- [百度][9] · [百度](www.baidu.com)
-- [百度](www.baidu.com)
-- [百度][5]
-- [百度][4] · [百度](www.baidu.com)
-- [百度][2] · 2019
-- [百度][1] · 2019
+我渴望能见你一面
 
-[1]: www.baidu.com
-[2]: www.baidu.com
-[3]: www.baidu.com
-[4]: www.baidu.com
-[5]: www.baidu.com
-[6]: www.baidu.com
-[7]: www.baidu.com
-[8]: www.baidu.com
-[9]: www.baidu.com
+但我不会开口要求要见你
+
+这不是因为骄傲
+
+你知道我在你面前毫无骄傲可言
+
+而是因为唯有你也想见我的时候
+
+我们见面才会有意义。
