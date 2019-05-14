@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-#weibo_username:     sen
-#zhihu_username:     sen
-github_username:    sen
-#twitter_username:   sen
-#facebook_username:  sen
+#weibo_username:     hub-sen
+#zhihu_username:     hub-sen
+github_username:    hub-sen
+#twitter_username:   hub-sen
+#facebook_username:  hub-sen
 #linkedin_username:  firstname-lastname-idxxxx
 
 
