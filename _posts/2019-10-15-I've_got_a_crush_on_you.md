@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     page
 title:      "I've got a crush on you"
 subtitle:   "I'd feel better sitting next to you than any other place I can think of or imagine"
 date:       2019-10-15
